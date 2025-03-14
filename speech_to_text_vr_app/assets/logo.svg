@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="#3498db" />
+  <circle cx="100" cy="100" r="75" fill="#fff" />
+  <circle cx="100" cy="100" r="60" fill="#3498db" />
+  
+  <!-- Paw Print -->
+  <ellipse cx="80" cy="70" rx="12" ry="15" fill="#fff" transform="rotate(-25 80 70)" />
+  <ellipse cx="120" cy="70" rx="12" ry="15" fill="#fff" transform="rotate(25 120 70)" />
+  <ellipse cx="70" cy="105" rx="12" ry="15" fill="#fff" transform="rotate(-5 70 105)" />
+  <ellipse cx="130" cy="105" rx="12" ry="15" fill="#fff" transform="rotate(5 130 105)" />
+  <ellipse cx="100" cy="130" rx="20" ry="25" fill="#fff" />
+  
+  <!-- Text -->
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#3498db">PetTravel</text>
+</svg>

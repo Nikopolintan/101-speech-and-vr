@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#3498db">PetTravel Service - User Journey</text>
+  
+  <!-- Step 1: Booking via SMS -->
+  <rect x="50" y="80" width="320" height="230" rx="10" fill="#fff" stroke="#ddd" />
+  <text x="210" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Step 1: Booking via SMS</text>
+  
+  <rect x="70" y="130" width="120" height="160" rx="10" fill="#fff" stroke="#333" />
+  <rect x="110" y="140" width="40" height="5" rx="2" fill="#333" />
+  <rect x="80" y="155" width="100" height="20" rx="5" fill="#e0f7fa" />
+  <text x="88" y="170" font-family="Arial, sans-serif" font-size="10" fill="#333">Hi, I need pet transport</text>
+  <rect x="80" y="185" width="100" height="30" rx="5" fill="#f5f5f5" />
+  <text x="88" y="200" font-family="Arial, sans-serif" font-size="10" fill="#333">Please provide pet name,</text>
+  <text x="88" y="215" font-family="Arial, sans-serif" font-size="10" fill="#333">breed and pickup details</text>
+  <rect x="80" y="225" width="100" height="30" rx="5" fill="#e0f7fa" />
+  <text x="88" y="240" font-family="Arial, sans-serif" font-size="10" fill="#333">Buddy, Golden Retriever,</text>
+  <text x="88" y="255" font-family="Arial, sans-serif" font-size="10" fill="#333">123 Home St, tomorrow 10am</text>
+  <rect x="80" y="265" width="100" height="20" rx="5" fill="#f5f5f5" />
+  <text x="88" y="280" font-family="Arial, sans-serif" font-size="10" fill="#333">Booking confirmed! #PET123</text>
+  
+  <circle cx="260" cy="210" r="50" fill="#fff" stroke="#333" stroke-width="2" />
+  <text x="260" y="205" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Owner</text>
+  <text x="260" y="225" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">sends SMS with</text>
+  <text x="260" y="245" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">pet details</text>
+  
+  <!-- Step 2: Pet Pickup -->
+  <rect x="430" y="80" width="320" height="230" rx="10" fill="#fff" stroke="#ddd" />
+  <text x="590" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Step 2: Pet Pickup</text>
+  
+  <!-- House -->
+  <rect x="460" y="140" width="80" height="60" fill="#e1bee7" stroke="#333" />
+  <rect x="480" y="160" width="20" height="40" fill="#9c27b0" stroke="#333" />
+  <polygon points="460,140 500,120 540,140" fill="#ce93d8" stroke="#333" />
+  
+  <!-- Pet -->
+  <circle cx="560" cy="190" r="15" fill="#f8d295" stroke="#333" />
+  <circle cx="555" cy="185" r="2" fill="#333" />
+  <circle cx="565" cy="185" r="2" fill="#333" />
+  <path d="M555,195 Q560,198 565,195" stroke="#333" stroke-width="1.5" fill="none" />
+  
+  <!-- Driver -->
+  <rect x="610" y="160" width="60" height="30" rx="5" fill="#bbdefb" stroke="#333" />
+  <rect x="610" y="190" width="60" height="20" fill="#2196f3" stroke="#333" />
+  <rect x="600" y="190" width="10" height="20" fill="#bbdefb" stroke="#333" />
+  <rect x="670" y="190" width="10" height="20" fill="#bbdefb" stroke="#333" />
+  <circle cx="640" cy="145" r="15" fill="#ffcc80" stroke="#333" />
+  <circle cx="635" cy="140" r="2" fill="#333" />
+  <circle cx="645" cy="140" r="2" fill="#333" />
+  <path d="M635,150 Q640,153 645,150" stroke="#333" stroke-width="1.5" fill="none" />
+  
+  <!-- SMS Notification -->
+  <rect x="450" y="270" width="280" height="30" rx="5" fill="#fff" stroke="#333" />
+  <text x="590" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Driver SMS: "I've arrived at your location for pickup"</text>
+  
+  <!-- Step 3: Vet Check -->
+  <rect x="50" y="340" width="320" height="230" rx="10" fill="#fff" stroke="#ddd" />
+  <text x="210" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Step 3: Vet Check</text>
+  
+  <!-- Vet clinic -->
+  <rect x="80" y="390" width="100" height="70" fill="#c8e6c9" stroke="#333" />
+  <rect x="110" y="440" width="40" height="20" fill="#4caf50" stroke="#333" />
+  <text x="130" y="455" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#fff">VET</text>
+  <path d="M120 390 L 120 410 L 140 410 L 140 390" stroke="#4caf50" fill="none" stroke-width="2" />
+  
+  <!-- Pet -->
+  <circle cx="215" cy="430" r="15" fill="#f8d295" stroke="#333" />
+  <circle cx="210" cy="425" r="2" fill="#333" />
+  <circle cx="220" cy="425" r="2" fill="#333" />
+  <path d="M210,435 Q215,438 220,435" stroke="#333" stroke-width="1.5" fill="none" />
+  
+  <!-- Vet -->
+  <circle cx="260" cy="415" r="15" fill="#ffcc80" stroke="#333" />
+  <circle cx="255" cy="410" r="2" fill="#333" />
+  <circle cx="265" cy="410" r="2" fill="#333" />
+  <path d="M255,420 Q260,423 265,420" stroke="#333" stroke-width="1.5" fill="none" />
+  <rect x="245" y="430" width="30" height="40" fill="#fff" stroke="#333" />
+  <rect x="250" y="435" width="20" height="5" fill="#f44336" />
+  <rect x="255" y="445" width="10" height="10" fill="#e0e0e0" />
+  
+  <!-- Stethoscope -->
+  <path d="M260 430 Q275 420 275 430 Q275 440 260 445" stroke="#333" fill="none" stroke-width="1.5" />
+  <circle cx="275" cy="430" r="3" fill="#333" />
+  
+  <!-- SMS Notification -->
+  <rect x="70" y="490" width="280" height="30" rx="5" fill="#fff" stroke="#333" />
+  <text x="210" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Owner SMS: "Vet check completed. Buddy is doing great!"</text>
+  
+  <!-- Step 4: Safe Drop-off -->
+  <rect x="430" y="340" width="320" height="230" rx="10" fill="#fff" stroke="#ddd" />
+  <text x="590" y="370" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Step 4: Safe Drop-off</text>
+  
+  <!-- Destination house -->
+  <rect x="600" y="390" width="80" height="60" fill="#ffcdd2" stroke="#333" />
+  <rect x="630" y="410" width="20" height="40" fill="#e57373" stroke="#333" />
+  <polygon points="600,390 640,370 680,390" fill="#ef9a9a" stroke="#333" />
+  
+  <!-- Person -->
+  <circle cx="580" cy="430" r="15" fill="#ffcc80" stroke="#333" />
+  <circle cx="575" cy="425" r="2" fill="#333" />
+  <circle cx="585" cy="425" r="2" fill="#333" />
+  <path d="M575,435 Q580,438 585,435" stroke="#333" stroke-width="1.5" fill="none" />
+  <rect x="570" y="445" width="20" height="30" fill="#90caf9" stroke="#333" />
+  <rect x="570" y="475" width="8" height="20" fill="#ffcc80" stroke="#333" />
+  <rect x="582" y="475" width="8" height="20" fill="#ffcc80" stroke="#333" />
+  
+  <!-- Pet -->
+  <circle cx="550" cy="450" r="15" fill="#f8d295" stroke="#333" />
+  <circle cx="545" cy="445" r="2" fill="#333" />
+  <circle cx="555" cy="445" r="2" fill="#333" />
+  <path d="M545,455 Q550,458 555,455" stroke="#333" stroke-width="1.5" fill="none" />
+  
+  <!-- Car leaving -->
+  <rect x="500" y="440" width="40" height="20" rx="5" fill="#78909c" stroke="#333" />
+  <rect x="505" y="430" width="30" height="15" rx="3" fill="#b0bec5" stroke="#333" />
+  <circle cx="510" cy="460" r="5" fill="#333" />
+  <circle cx="530" cy="460" r="5" fill="#333" />
+  <path d="M470 450 L 490 450" stroke="#333" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- SMS Confirmation -->
+  <rect x="450" y="510" width="280" height="30" rx="5" fill="#fff" stroke="#333" />
+  <text x="590" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">SMS: "Buddy has been safely dropped off. Trip completed."</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M370 190 L 430 190" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M210 310 L 210 340" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M590 310 L 590 340" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M370 450 L 430 450" stroke="#3498db" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db" />
+    </marker>
+  </defs>
+</svg>

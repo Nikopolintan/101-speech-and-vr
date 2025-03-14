@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Speech-to-Text and VR Tour App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            color: #3498db;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .download-btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        .download-btn:active {
+            transform: translateY(0);
+        }
+        
+        .download-btn i {
+            margin-right: 8px;
+        }
+        
+        .instructions {
+            margin-top: 2rem;
+            border-top: 1px solid #e1e4e8;
+            padding-top: 1.5rem;
+        }
+        
+        .instructions h2 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .instructions ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .instructions li {
+            margin-bottom: 0.8rem;
+        }
+        
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download the Web Application</h1>
+        
+        <p>
+            This downloadable package contains all the necessary files for the Speech-to-Text and VR Tour web application. 
+            You can extract these files and open them in Visual Studio Code or any other code editor of your choice.
+        </p>
+        
+        <div class="download-section">
+            <a href="speech_to_text_vr_app.zip" download class="download-btn">
+                <i>📥</i> Download ZIP File
+            </a>
+        </div>
+        
+        <div class="instructions">
+            <h2>Setup Instructions</h2>
+            <ol>
+                <li>Click the "Download ZIP File" button above to download the application files</li>
+                <li>Extract the ZIP file to a location of your choice</li>
+                <li>Open the folder in Visual Studio Code</li>
+                <li>Use a local web server to run the application:
+                    <ul>
+                        <li>Using Python: <code>python -m http.server 5000</code></li>
+                        <li>Using VS Code Live Server extension</li>
+                        <li>Or any other static file server</li>
+                    </ul>
+                </li>
+                <li>Access the application via your browser at <code>http://localhost:5000</code> (or the port you specified)</li>
+            </ol>
+            
+            <p>For more detailed instructions, please refer to the README.md file included in the ZIP package.</p>
+        </div>
+        
+        <a href="index.html" class="back-link">Return to Homepage</a>
+    </div>
+</body>
+</html>
